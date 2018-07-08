@@ -1,4 +1,4 @@
-# As part of this activity, below mentieond tasks need to be complete.
+
 
 # 1. Merges the training and the test sets to create one data set.
 # 2. Extracts only the measurements on the mean and standard deviation for each measurement.
@@ -72,8 +72,7 @@ colnames(mean_std_data) <- gsub("mean","Mean", (names(mean_std_data)))
 colnames(mean_std_data) <- gsub("std","Std", (names(mean_std_data)))
 colnames(mean_std_data) <- gsub("^f","Freq_", (names(mean_std_data)))
 colnames(mean_std_data) <- gsub("^t","Time_", (names(mean_std_data)))
-## There were duplicates in column names so make them unique
-## colnames(full_data) <- make.unique( names(full_data) )
+
 
 
 ### Answer 5: From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
