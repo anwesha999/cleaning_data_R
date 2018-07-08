@@ -1,4 +1,4 @@
-###Variables
+### Variables
 
 identifiers in tidyData.csv file
 
@@ -19,7 +19,7 @@ subject_test This contains data from file "subject_test.txt"
 X_test This contains data from file "X_test.txt"
 y_test This contains data from file "y_test.txt"
 
-###Data train_data This will contain all the columns from X, Y and subject training data
+### Data train_data This will contain all the columns from X, Y and subject training data
 test_data This will contain all the columns from X, Y and subject test data
 full_data This will contains all the records of training and test data
 mean_std_data This will contains a subset of data for Mean and standard deviation columns, activityID, subjectID and activityType. This will also contain proper column names.
